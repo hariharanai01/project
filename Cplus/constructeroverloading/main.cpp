@@ -36,27 +36,27 @@ public:
    int main()
    {
     subjectcheck sk;
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name;
     cin >> s_name;
     subjectcheck sk1(s_name);
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name1;
     cin >> s_name1;
     subjectcheck sk2(s_name,s_name1);
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name2;
     cin >> s_name2;
     subjectcheck sk3(s_name,s_name1,s_name2);
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name3;
     cin >> s_name3;
     subjectcheck sk4(s_name,s_name1,s_name2,s_name3);
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name4;
     cin >> s_name4;
     subjectcheck sk5(s_name,s_name1,s_name2,s_name3,s_name4);
-    cout << "Enter the subjectname";
+    cout << "\tEnter the subjectname";
     string s_name5;
     cin >> s_name5;
 
